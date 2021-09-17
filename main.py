@@ -13,6 +13,7 @@ a = f"{year}-{month}-{day}"
 root = Tk()
 root.geometry("650x800+600+0")
 root.resizable(False, False)
+root.title("planner")
 label_day = Label(root, text=f"{a} 작성", font=("궁서체", 10))
 label_day.pack()
 label = Label(root, text="플래너", font=("궁서체", 30))
